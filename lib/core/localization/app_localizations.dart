@@ -147,6 +147,12 @@ abstract class AppLocalizations {
   /// **'Layers'**
   String get layers;
 
+  /// No description provided for @advancedOptions.
+  ///
+  /// In en, this message translates to:
+  /// **'Advanced Options'**
+  String get advancedOptions;
+
   /// No description provided for @discard.
   ///
   /// In en, this message translates to:

@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:paintroid/core/utils/widget_identifier.dart';
 import 'package:paintroid/ui/pages/workspace_page/components/bottom_bar/bottom_nav_bar_items.dart';
@@ -60,4 +61,19 @@ class WidgetFinder {
       find.byKey(const ValueKey(WidgetIdentifier.genericDialogActionRename));
   static final Finder genericDialogActionYes =
       find.byKey(const ValueKey(WidgetIdentifier.genericDialogActionYes));
+
+  // Advanced Options
+  static final Finder overflowMenuButton = find.byIcon(Icons.more_vert);
+  static final Finder advancedOptionsMenuEntry =
+      find.byKey(const ValueKey(WidgetIdentifier.advancedOptionsMenuEntry));
+  static final Finder advancedOptionsDialog =
+      find.byKey(const ValueKey(WidgetIdentifier.advancedOptionsDialog));
+  static final Finder advancedOptionsAntialiasingSwitch = find.byKey(
+      const ValueKey(WidgetIdentifier.advancedOptionsAntialiasingSwitch));
+  static final Finder advancedOptionsSmoothingSwitch = find.byKey(
+      const ValueKey(WidgetIdentifier.advancedOptionsSmoothingSwitch));
+  static final Finder advancedOptionsOkButton =
+      find.byKey(const ValueKey(WidgetIdentifier.advancedOptionsOkButton));
+  static final Finder advancedOptionsCancelButton =
+      find.byKey(const ValueKey(WidgetIdentifier.advancedOptionsCancelButton));
 }

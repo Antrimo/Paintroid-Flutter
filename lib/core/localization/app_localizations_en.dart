@@ -31,6 +31,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get layers => 'Layers';
 
   @override
+  String get advancedOptions => 'Advanced Options';
+
+  @override
   String get discard => 'Discard';
 
   @override

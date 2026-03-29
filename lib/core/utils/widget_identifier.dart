@@ -22,4 +22,12 @@ class WidgetIdentifier {
   static const genericDialogActionOk = 'GenericDialogActionOk';
   static const genericDialogActionRename = 'GenericDialogActionRename';
   static const genericDialogActionYes = 'GenericDialogActionYes';
+
+  // Advanced Options
+  static const advancedOptionsMenuEntry = 'AdvancedOptionsMenuEntry';
+  static const advancedOptionsDialog = 'AdvancedOptionsDialog';
+  static const advancedOptionsAntialiasingSwitch = 'AdvancedOptionsAntialiasingSwitch';
+  static const advancedOptionsSmoothingSwitch = 'AdvancedOptionsSmoothingSwitch';
+  static const advancedOptionsOkButton = 'AdvancedOptionsOkButton';
+  static const advancedOptionsCancelButton = 'AdvancedOptionsCancelButton';
 }
